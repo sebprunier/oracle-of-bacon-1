@@ -50,7 +50,7 @@ Le site a été bouchonné (cf `TODO`), vous devez effectuer les tâches suivant
 * Implémenter la gestion du last 10 search à l'aide de Redis dans la méthode `com.serli.oracle.of.bacon.repository.RedisRepository#getLastTenSearches`
 * Importer les données à l'aide de ElasticSearch dans `com.serli.oracle.of.bacon.loader.elasticsearch.CompletionLoader` (les liens suivants pourront vous aider : [search](https://www.elastic.co/guide/en/elasticsearch/reference/current/search.html), [mapping](https://www.elastic.co/guide/en/elasticsearch/reference/current/mapping.html) et [suggest](https://www.elastic.co/guide/en/elasticsearch/reference/current/search-suggesters.html))
 * Implémenter la suggestion sur le nom des acteurs dans `com.serli.oracle.of.bacon.repository.ElasticSearchRepository#getActorsSuggests`
-* Implémenter la recherche des acteurs par nom à l'aide de MongoDB dans `com.serli.oracle.of.bacon.repository.MongoDbRepository#getActorByName`
+* Implémenter la recherche des acteurs par nom à l'aide de MongoDB dans `com.serli.oracle.of.bacon.repository.MongoDbRepository#getActorByName` (PS : les données utiles à la recherche des acteurs sont celles importées lors de l'étape [mongodb-102](https://github.com/nosql-bootcamp/mongodb-102))
 
 L'évaluation de votre travail sera effectuée selon les critères suivants :
 * Bon fonctionnement (First make it work)
